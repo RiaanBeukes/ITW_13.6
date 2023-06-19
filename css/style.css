@@ -144,7 +144,13 @@ button:hover {
 
 .sponsors {
     display: grid;
+    grid-template-columns:23% 23% 23% 23%;
+    grid-template-rows:50px 50px;
     text-align: center;
+}
+
+.RB col-span-2 {
+    grid-row:
 }
 
 .sponsors > div {
